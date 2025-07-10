@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 151px;
+  width:1140px;
+  margin: 0 auto;
+}
+
+.logo1 {
+  font-size: 24px;
+  color: #4E47FF;
+  font-weight: bold;
+}
+.btn-signup {
+  background-color: #4E47FF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn-signup:hover{
+    background-color: #7122a69c;
+}
+.sec1{
+    display: flex;
+    width: 905px;
+    height:237px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
