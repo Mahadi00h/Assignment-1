@@ -3,13 +3,14 @@
 }
 body{
     font-family: raleway,sans-serif;
+    background-color: #ffffff50;
 
 }
 header{
     background-image: url(/Assets/Hero-bg.png);
     background-size:auto;
     background-repeat: no-repeat;
-    height: 698px;
+    height: 550px;
     width:100%;
 }
 .nav-bar {
@@ -49,7 +50,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 150px auto;
+    margin: 100px auto;
 }
 .h-para{
     font-size:65px;
@@ -115,4 +116,31 @@ justify-content: space-around;
     font-size: 20px;
     font-weight: normal;
     text-align: center;
+}
+.comment{
+    display: flex;
+    justify-content:first baseline;
+    align-items: center;
+    gap: 10px;
+}
+.review{
+    display: flex;
+    width: 1140px;
+    height: 342px;
+    margin: 40px auto;
+    justify-content: center;
+    padding-right: 10px;
+    gap: 80px;
+    background-color: white;
+}
+.p-last{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin:60px 1px 1px 1px;
+}
+.review-p{
+    font-weight: normal;
+    font-size: 12px;
 }
