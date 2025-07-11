@@ -7,7 +7,7 @@ body{
 
 }
 header{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(./Assets/Hero-bg.png);
     background-size:auto;
     background-repeat: no-repeat;
     height: 550px;
